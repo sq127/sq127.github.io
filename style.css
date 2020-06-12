@@ -1,41 +1,44 @@
 body{
 	background-color: lightpink;
 }
-{
-	margin: 0;
+*{
+	margin:0;
 	padding: 0;
 }
 ul,li{
 	list-style: none;
 }
 .wrap{
-	width: 1180px;
+	width: 1440px;
 	padding: 0 10px;
 	margin: 0 auto;
 }
 #header{
-    background-color: #000;
-	height: 44px;
+	background-color:white;
 }
 #logo{
-/* 	background-color: aquamarine; */
+	background-color: #FFFFFF;
 	float: left;
 }
 #nav{
-	float: right;
+	float: left;
+	margin-top:20px;
 }
 #nav li{
-	float: left;
-	margin-left: 30px;
-	height: 44px;
-	line-height: 44px;
+	margin-top:10px;
 }
 #nav li a{
-	color: white;
+	color: black;
 }
 #main{
-	background-color: aliceblue;
+	background-color: beige;
+}
+#nav h2{
+	margin-top: 20px;
+}
+#nav h2{
+	margin-top: 10px;
 }
 #footer{
-	background-color: #333;
+	background-color: aliceblue;
 }
