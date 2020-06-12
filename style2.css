@@ -1,0 +1,97 @@
+*{
+	margin:0;
+	padding:0;
+}
+a{
+	text-decoration: none;
+}
+ul li{
+	list-style:none;
+}
+#header{
+	background-color: #c694ba;
+	height: 45px;
+}
+#logo{
+	float: left;
+	height: 25px;
+	margin: 10px 0;
+}
+#nav{
+	float: right;
+}
+#nav ul{
+	float: right;
+}
+#nav li{
+	float: left;
+	height: 45px;
+	line-height: 45px;
+ 	width: 90px;
+	text-align: center;
+}
+#nav li a{
+	color: white;
+	height: 45px;
+	width: 60px;
+	padding: 0 15px;
+	text-align: center;
+	text-decoration: none;
+	display: block;
+}
+#nav li a:hover{
+	background-color: red;
+}
+#banner{
+	background: url(images/3.jpg) no-repeat  center -350px;
+	height:550px;
+}
+#footer{
+	background-color: #c694ba;
+}
+.about{
+	background-color:#fae7e2;
+}
+.skill{
+	background-color:#c1c6f3;
+}
+.works{
+	background-color:#fae7e2;
+}
+.experience{
+	background-color:#c1c6f3;
+}
+.w1180{
+	width:1180px;
+	margin:0 auto;
+	overflow:hidden;
+}
+.left{
+	float:left;
+	width:400px;
+}
+.right{
+	float:left;
+	width:780px;
+	/*background-color:#f4f668;*/
+}
+.left img{
+	width:400px;
+	display:block;
+}
+.box{
+	width:295px;
+	height:150px;
+	float:left;
+}
+.box img{
+	width:80px;
+}
+.box .left2{
+	float:left;
+	width:80px;	
+}
+.box .right2{
+	float:left;
+	width:215px;
+}
